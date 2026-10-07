@@ -4,12 +4,12 @@ import { getFirestore, /*connectFirestoreEmulator*/  } from "firebase/firestore"
 import { getStorage, /*connectStorageEmulator*/ } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyADXxs2mqiE-aEaUR1CuLfoUT359xf7Auw",
+  authDomain: "fir-react-v03-project.firebaseapp.com",
+  projectId: "fir-react-v03-project",
+  storageBucket: "fir-react-v03-project.firebasestorage.app",
+  messagingSenderId: "48105027741",
+  appId: "1:48105027741:web:114e6cca299ec463627c74"
 };
 
 const app = initializeApp(firebaseConfig);
