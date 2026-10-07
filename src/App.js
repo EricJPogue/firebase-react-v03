@@ -267,7 +267,7 @@ export default function App() {
   if (!user) {
     return (
       <div>
-        <h1>Please Login to Play</h1>
+        <h1>Please Login to Play version 2</h1>
         <button onClick={handleLogin}>
           Sign in with Google
         </button>
